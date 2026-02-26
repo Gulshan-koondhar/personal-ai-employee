@@ -411,12 +411,12 @@ requires_api: {self._platform_requires_api(platform)}
 - **Post ID:** {publish_result.get('post_id', 'unknown')}
 - **Status:** {'Success' if publish_result.get('success') else 'Failed'}
 """
-        
+
         if 'url' in publish_result:
             pub_info += f"- **URL:** {publish_result['url']}\n"
-        
+
         content += pub_info
-        published_file.write_text(content)
+        published_file.write_text(content, encoding='utf-8')
 
     def _extract_metadata(self, content: str, field: str) -> str:
         """Extract a metadata field from markdown frontmatter"""

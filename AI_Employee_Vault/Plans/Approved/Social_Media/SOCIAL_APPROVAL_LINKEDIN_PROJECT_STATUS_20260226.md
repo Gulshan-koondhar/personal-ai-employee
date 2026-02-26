@@ -3,7 +3,7 @@ type: social_media_approval
 platform: linkedin
 status: pending
 created: 2026-02-26T12:00:00
-source_file: ..\..\Social_Posts\LINKEDIN_PROJECT_STATUS_20260226.md
+source_file: E:\Gulshan\Quarter 4 Hackathon\personal_AI_assistant\AI_Employee_Vault\Social_Posts\LINKEDIN_PROJECT_STATUS_20260226.md
 reason: Project status showcase for Personal AI Employee Hackathon - sharing completed Bronze, Silver, and Gold tier achievements
 ---
 

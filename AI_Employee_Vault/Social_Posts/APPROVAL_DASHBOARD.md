@@ -1,6 +1,6 @@
 ---
 type: social_media_approval_dashboard
-generated: 2026-02-26T11:59:17.397197
+generated: 2026-02-26T12:07:29.289075
 ---
 
 # Social Media Approval Dashboard
@@ -9,8 +9,8 @@ generated: 2026-02-26T11:59:17.397197
 
 | Status | Count |
 |--------|-------|
-| 🔴 Pending Approval | 9 |
-| 🟢 Approved | 2 |
+| 🔴 Pending Approval | 0 |
+| 🟢 Approved | 1 |
 | ❌ Rejected | 0 |
 | ✅ Published | 1 |
 
@@ -33,15 +33,7 @@ generated: 2026-02-26T11:59:17.397197
 
 ## Pending Approvals
 
-- **SOCIAL_APPROVAL_FACEBOOK_20260226_113244.md** (facebook) - Created: 2026-02-26T11:32:44.549331
-- **SOCIAL_APPROVAL_INSTAGRAM_20260226_113244.md** (instagram) - Created: 2026-02-26T11:32:44.561370
-- **SOCIAL_APPROVAL_INSTAGRAM_20260226_113252.md** (instagram) - Created: 2026-02-26T11:32:52.694075
-- **SOCIAL_APPROVAL_LINKEDIN_PROJECT_STATUS_20260226.md** (linkedin) - Created: 2026-02-26T12:00:00
-- **SOCIAL_APPROVAL_TWITTER_20260226_113334.md** (twitter) - Created: 2026-02-26T11:33:34.346815
-- **SOCIAL_APPROVAL_TWITTER_20260226_113345.md** (twitter) - Created: 2026-02-26T11:33:45.124527
-- **SOCIAL_APPROVAL_TWITTER_20260226_113535.md** (twitter) - Created: 2026-02-26T11:35:35.432668
-- **SOCIAL_APPROVAL_TWITTER_20260226_113626.md** (twitter) - Created: 2026-02-26T11:36:26.701919
-- **SOCIAL_APPROVAL_TWITTER_20260226_115917.md** (twitter) - Created: 2026-02-26T11:59:17.386955
+*No pending approvals*
 
 ---
-*Generated: 2026-02-26 11:59:17*
+*Generated: 2026-02-26 12:07:29*
