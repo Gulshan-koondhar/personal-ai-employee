@@ -44,31 +44,9 @@ yarn-error.log
 .DS_Store
 Thumbs.db
 
-# Logs
+# Logs (excluding vault logs)
 *.log
 logs/
-
-# Vault data (keep structure, exclude personal data)
-AI_Employee_Vault/Logs/*.jsonl
-AI_Employee_Vault/Logs/daily_summary_*.md
-AI_Employee_Vault/Logs/audit_log_*.jsonl
-AI_Employee_Vault/Personal/
-AI_Employee_Vault/Business/
-AI_Employee_Vault/Integration/
-AI_Employee_Vault/Sync/
-
-# Backups
-AI_Employee_Vault/Backups/
-
-# Failed actions
-AI_Employee_Vault/Failed_Actions/
-
-# Social posts (keep structure, exclude drafts)
-AI_Employee_Vault/Social_Posts/*_POST_*.md
-AI_Employee_Vault/Social_Posts/*_THREAD_*.md
-
-# LinkedIn posts
-AI_Employee_Vault/LinkedIn_Posts/
 
 # Temporary files
 *.tmp
