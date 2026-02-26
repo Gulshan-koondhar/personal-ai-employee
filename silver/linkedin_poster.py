@@ -10,10 +10,12 @@ from datetime import datetime
 import sys
 import os
 import requests
-from config_loader import get_env_variable
 
-# Add parent directory to path
+# Add parent directory and gold directory to path for config_loader
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'gold'))
+
+from config_loader import get_env_variable
 
 # Configure logging
 logging.basicConfig(
