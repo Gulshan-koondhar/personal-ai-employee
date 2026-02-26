@@ -1,0 +1,22 @@
+{
+  "servers": [
+    {
+      "name": "email",
+      "command": "node",
+      "args": ["mcp_servers/email-mcp.js"],
+      "env": {
+        "EMAIL_API_KEY": "your-email-api-key-here",
+        "SMTP_HOST": "smtp.gmail.com",
+        "SMTP_PORT": "587"
+      }
+    },
+    {
+      "name": "browser",
+      "command": "npx",
+      "args": ["@anthropic/browser-mcp"],
+      "env": {
+        "HEADLESS": "true"
+      }
+    }
+  ]
+}

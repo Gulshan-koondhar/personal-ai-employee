@@ -1,0 +1,26 @@
+# Environment variables and credentials
+.env
+*.env
+.env.local
+.env.production
+
+# Logs
+Logs/
+*.log
+
+# Backup files
+*.bak
+*.backup
+
+# Session files
+*.session
+session_*
+
+# Credentials
+credentials.json
+tokens.json
+keys.json
+
+# System files
+.DS_Store
+Thumbs.db
