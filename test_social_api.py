@@ -55,8 +55,9 @@ def test_twitter_api():
         else:
             print("\n[WARN] WARNING: Could not fetch user info")
         
-        # Create a test tweet
-        test_tweet = f"[AI TEST] {Path(__file__).stem} - Automated testing of Twitter integration for Personal AI Employee project #AI #Automation #Test"
+        # Create a test tweet with unique timestamp
+        timestamp = Path(__file__).stat().st_mtime
+        test_tweet = f"[AI TEST {timestamp}] Automated testing of Twitter integration for Personal AI Employee project #{int(timestamp) % 10000} #AI #Automation"
         
         print(f"\nPosting test tweet...")
         print(f"Content: {test_tweet[:100]}...")
@@ -130,7 +131,7 @@ def test_linkedin_api():
 
 Testing LinkedIn integration for my Personal AI Employee project.
 
-This is an automated test post to verify the API connection is working correctly.
+This is a unique test post (timestamp=9999) to verify LinkedIn integration.
 
 #AI #Automation #LinkedInAPI #Test"""
 
